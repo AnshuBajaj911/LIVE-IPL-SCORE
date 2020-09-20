@@ -18,7 +18,7 @@ var url = api + unique_id + api_key;
                         
                              
                              temp+="<tr class='table-success'>";
-                             temp+="<td>"+data.description+"</td>";
+                           temp+="<td>"+data["team-1"]+" vs "+data["team-2"]+"</td>";
                                 temp+="<td>"+data.stat+"</td>";
                             if(data.matchStarted == true)
                              temp+="<td>"+data.score+"</td>";
